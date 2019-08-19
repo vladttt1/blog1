@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.primforest.blog"
+    },
+    "jhipsterVersion": "6.0.0",
+    "applicationType": "gateway",
+    "baseName": "blog",
+    "packageName": "com.primforest.blog",
+    "packageFolder": "com/primforest/blog",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODJmMTcyNTZiYzY2MzVlZjY1ZjBjMjQwZjJkYzFjNDNlZmE0YmYzODAwZGY0ZmI5MGViNDg5NWE1MTc4NjU0YjI1OTVhNjYzMmM4NjgxMTdkODE1ZTk4NzNlYWQ3YmNlYjZkYzZkNDE4YzViZmI1Yzk5YzQzMDhmNWU0MDc0NDM=",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": ["gatling", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
